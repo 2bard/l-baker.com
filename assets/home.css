@@ -1,0 +1,27 @@
+#container {
+     position: absolute;
+    top: 20%;
+}
+
+.centred {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+body {
+	background: url('images/background.jpg');	
+                font-family: 'Press Start 2P', cursive;
+
+                font-size: 52px;
+}
+
+#sitename {
+	padding-left:3%;
+	vertical-align: middle;
+}
+
+#cube {
+	width:150px;
+	height:150px;
+}
