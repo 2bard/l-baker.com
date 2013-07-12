@@ -4,8 +4,8 @@ requirejs.config({
         	exports: 'paper'
         },
 
-        'fun/cube' : {
-            deps: ['libs/paper_nightly', 'libs/jquery']
+        'fun/cube/cube' : {
+            deps: ['libs/paper_nightly']
         },
 
     },
@@ -13,6 +13,6 @@ requirejs.config({
 
 
 
-require(["libs/jquery","libs/paper_nightly","fun/cube"], function(paper_nightly) {
+require(["libs/paper_nightly","fun/cube/cube"], function(paper_nightly) {
 
 });

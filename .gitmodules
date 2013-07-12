@@ -1,3 +1,6 @@
 [submodule "assets/js/fun/cube"]
 	path = assets/js/fun/cube
 	url = git@github.com:2bard/cube.git
+[submodule "assets/js/fun/cellular"]
+	path = assets/js/fun/cellular
+	url = git@github.com:2bard/automatajs.git
